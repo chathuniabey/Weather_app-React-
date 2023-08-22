@@ -1,0 +1,20 @@
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.weather-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+    
+.weather-description,
+p {
+    margin: 10px 0;
+}
+    

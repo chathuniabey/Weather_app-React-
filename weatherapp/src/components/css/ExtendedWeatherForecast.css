@@ -1,0 +1,38 @@
+.extended-weather-container {
+    text-align: center;
+}
+      
+.forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+      
+.weather-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Set a fixed width for each card */
+}
+      
+.view-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+}
+      
+/* Style the "View More" button */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+      

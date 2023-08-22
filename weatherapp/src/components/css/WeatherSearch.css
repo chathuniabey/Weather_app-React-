@@ -1,0 +1,41 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content at the top */
+}
+
+
+.custom-button {
+    background-color:steelblue;
+    color: white;
+}
+    
+    
+.navbar {
+    text-align: center;
+    background-color: rgb(201, 208, 217);
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Fix width to match the page width */
+}
+    
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%; /* Fix width to match the page width */
+}
+    
+.search-container input {
+    margin: 0 5px;
+}
+    
+.weather-details-container {
+    text-align: center;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Fix width to match the page width */
+}
